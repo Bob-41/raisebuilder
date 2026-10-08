@@ -60,4 +60,5 @@ nav {
 
 .active {
     color: #f9f2e5;
+    text-decoration: underline;
 }
