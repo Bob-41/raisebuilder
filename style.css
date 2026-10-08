@@ -4,15 +4,15 @@ body {
   display: grid;
   place-items: center;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  background: #141312;
-  color: #f5eedc;
+  background: #09242c;
+  color: #dcedf5;
 }
 
 main {
   max-width: 32rem;
   padding: 2.5rem;
-  background: #1e1c19;
-  border: 2px solid #38332c;
+  background: #08242a;
+  border: 2px solid #0f4670;
   border-radius: 8px;
 }
 
