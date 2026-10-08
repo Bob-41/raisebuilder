@@ -16,6 +16,13 @@ main {
   border-radius: 8px;
 }
 
+main:hover {
+  border-color: #4b94cb;
+}
+nav:hover {
+  border-color: #4b94cb;
+}
+
 h1 {
   font-size: 2rem;
   margin: 0 0 0.75rem;
@@ -29,7 +36,7 @@ a {
 
 a:hover {
   text-decoration: underline;
-}
+} 
 
 ul {
   list-style: none;
@@ -37,4 +44,20 @@ ul {
   display: flex;
   gap: 1.25rem;
   margin-top: 1.5rem;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  gap: 1.25rem;
+  border: 2px solid #0f4670;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  background: #08242a;
+  font-size: 1.25rem;
+}
+
+.active {
+    color: #f9f2e5;
 }
