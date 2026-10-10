@@ -2,13 +2,19 @@
 
 A personal portfolio site for [Pixl](https://pixl.hackclub.com), built for Hack Club's Raise a Builder. It has three pages — home, projects, and donations — with a dark teal theme. It's plain HTML and CSS: no framework, no dependencies, and no build step.
 
-![Home page](docs/screenshots/home.png)
+![Home page](images/home.png)
 
 ## Description
 
 The site is a small portfolio for the projects I'm building as a Pixl Maker. The home page introduces me and links out to GitHub and Pixl. The projects page lists the things I've made, most notably [Relay](https://github.com/Bob-41/Relay), a tool that lets you upload code to a First Tech Challenge Rev Robotics Control Hub over your local Wi-Fi instead of connecting to the robot's own network, plus [my team website](https://quantumcoders.kozow.com) with data about our FTC team, Quantum Coders. The donate page embeds a Hack Club Bank donation form so visitors can support the team directly.
 
 Everything is plain static HTML and CSS. Each page is a separate file that shares one stylesheet, and navigation is plain `<a>` tags between them. The donation page is the only part that reaches outside the repo as it is just a HCB donate url embed for my FTC robotics team.
+
+### Screenshots
+
+| Home | Projects | Donate |
+| --- | --- | --- |
+| ![Home page](images/home.png) | ![Projects page](images/projects.png) | ![Donate page](images/donate.png) |
 
 
 ## Getting Started
@@ -38,6 +44,7 @@ raisebuilder/
 ├── about.html     # Projects
 ├── donate.html    # Donations
 ├── style.css      # All styling, shared by every page
+├── images/        # Screenshots used in this readme
 ├── robots.txt
 └── readme.md
 ```
