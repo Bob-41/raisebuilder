@@ -1,9 +1,32 @@
 # Raise a Builder Page
 
-My portfolio site for [Pixl](https://pixl.hackclub.com), made for Hack Club's Raise a Builder. Three pages — home, projects, and donate — in a dark teal theme, built with plain HTML and CSS. No framework, no build step, no dependencies; you can open `index.html` and it just works. Home is a short intro with links to my GitHub and Pixl, projects lists what I've been working on (mostly [Relay](https://github.com/Bob-41/Relay), which uploads code to an FTC Rev Robotics Control Hub over your local wifi instead of the robot's own network), and donate embeds a Hack Club Bank form for my FTC team, Quantum Coders.
+My personalproject site for raise a builder for hackclub customized with my own theme.
 
-To run it, clone the repo and serve the folder with `python3 -m http.server 8000`, then open <http://localhost:8000>. Serving it instead of opening the file directly just keeps the links between pages behaving the same as they do once deployed. There's nothing to install and nothing to rebuild — edit `style.css`, reload, and all three pages update at once.
-
-Everything's in three HTML files (`index.html`, `about.html`, `donate.html`) sharing one stylesheet, with nav as plain `<a>` tags between them. The colors live at the top of `style.css` if you want to change them, and the whole folder can go straight onto GitHub Pages, Netlify, or Cloudflare Pages with no build command.
+It's plain HTML and CSS.
 
 ![Home page](images/home.png)
+
+## Description
+
+This is a small portfolio for the projects I'm building as a Pixl Maker.
+
+- **Home** introduces me and links out to GitHub and Pixl.
+- **Projects** lists the things I've made, most notably [Relay](https://github.com/Bob-41/Relay) — a tool that uploads code to a First Tech Challenge Rev Robotics Control Hub over your local Wi-Fi, so you no longer have to go stand next to the robot holding your laptop like it's 2009. Also includes [my team website](https://quantumcoders.kozow.com) with data about our FTC team, Quantum Coders.
+- **Donate** embeds a Hack Club Bank donation form so visitors can support the team directly. This is the only part of the site that touches the outside internet.
+
+Each page is a separate file sharing one stylesheet, and navigation is plain `<a>` tags between them. That's it. There's no clever routing layer. The `<a>` tags do the work.
+
+### Screenshots
+
+| Home | Projects | Donate |
+| --- | --- | --- |
+| ![Home page](images/home.png) | ![Projects page](images/projects.png) | ![Donate page](images/donate.png) |
+
+
+### Modifying the site
+
+- **Colors** — all of them live at the top of `style.css`: page background `#09242c`, cards and nav `#08242a`, gold link color `#e5a93c`, border highlight `#4b94cb`.
+- **Navigation** — the `<nav>` block is repeated in all three HTML files, so adding a page means editing each one and adding the new file to the folder. Yes, copy-paste. That's the whole pattern.
+- **Project list** — the entries on the projects page are plain `<li>` items in `about.html` under `<ul id="projects">`.
+- **Donation form** — swap the `src` on the `<iframe>` in `donate.html` for a different Hack Club Bank URL. Keep the `/donations/start/` part of the path.
+
