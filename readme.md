@@ -1,6 +1,6 @@
 # Raise a Builder
 
-My website showcasing for Raise a Builder containing a projects and donate page.
+My website showcasing for Raise a Builder containing a projects and donate page. 
 
 ## Screenshots
 
@@ -23,3 +23,7 @@ All you need to do to see my project is either open the demo link in the right s
 ## Contributing
 
 This is my website, so idk why you'd wanna commit to it, but if you want to, then ig just say something descriptive in the commit msg.
+
+## License
+
+My website is free to use and anyone can use it under the MIT license and you can do anything with it.
