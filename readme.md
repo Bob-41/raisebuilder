@@ -1,4 +1,4 @@
-# title
+# Raise My Builder Project
 !
 This is my website where I showcase my own projects and provide a donate page for people who want to support what I'm building for the raise a builder trial. I made this website to have a place to show off my work, share my projects with others, and make it easy for people to find out more about what I'm doing. Basically, this is where I get to show off my creations and give people a way to support them!
 
